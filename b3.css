@@ -1,0 +1,49 @@
+* {
+    margin: 0;
+    padding: 0;
+  }
+  
+  .container {
+    width: 900px;
+    height: 600px;
+    margin: 0 auto;
+  }
+  
+  .layout-1,
+  .layout-2,
+  .layout-3,
+  .layout-4 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+  }
+  
+  .block {
+    width: 50px;
+    height: 50px;
+    border: 1px solid black;
+    font-family: sans-serif;
+    font-size: 18px;
+    text-align: center;
+  }
+  
+  .block:nth-child(odd) {
+    background-color: red;
+  }
+  
+  .block:nth-child(even) {
+    background-color: blue;
+  }
+  
+  .layout-1,
+  .layout-3 {
+    margin-left: 10px;
+    margin-right: 10px;
+  }
+  
+  .layout-2,
+  .layout-4 {
+    margin-top: 10px;
+    margin-bottom: 10px;
+  }

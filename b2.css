@@ -1,0 +1,42 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:wght@400;500;600;700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+li{
+
+}
+
+body{
+font-size: 13px;
+font-family: 'Noto Sans', sans-serif;
+}
+
+.shopee-header {
+    width: 100%;
+    background: linear-gradient(-180deg,#f53d2d,#f63);
+    transition: transform .2s cubic-bezier(.4,0,.2,1);
+
+    
+}
+.shopeee-navbar {
+    display: flex;
+    justify-content: space-between;
+    
+}
+.navbar-list-item {
+    display: flex;
+    gap: 15px;
+    padding: 10px 24px;
+}
+.navbar-item {
+    color: #fff; 
+}
+
+.border-right{
+    border-right: 1px solid #dadada; 
+}
